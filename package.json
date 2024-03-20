@@ -1,0 +1,16 @@
+{
+  "name": "sesion-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss -css scss/custom.css --content index.html --output scss/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "purgecss": "^5.0.0"
+  }
+}
